@@ -13,12 +13,12 @@ p.start(0) # Initialization
 def rotate_cw():
     print("Hello")
     p.ChangeDutyCycle(5)
-    time.sleep(0.5)
+    time.sleep(0.1)
 
 def rotate_ccw():
     print("Hello2")
     p.ChangeDutyCycle(5)
-    time.sleep(0.5)
+    time.sleep(0.1)
 
 root = tk.Tk()
 
