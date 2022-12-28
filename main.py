@@ -35,3 +35,6 @@ button_plus = tk.Button(frame, text="+", command=rotate_cw)
 button_plus.grid(row=1, column=1, padx=10, pady=10)
 
 root.mainloop()
+
+p.stop()
+GPIO.cleanup()
