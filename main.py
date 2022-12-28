@@ -20,7 +20,7 @@ def rotate_ccw():
     print("Hello2")
     p.ChangeDutyCycle(5)
     time.sleep(0.1)
-    p.ChangeDutyCycle(0
+    p.ChangeDutyCycle(0)
 
 root = tk.Tk()
 
