@@ -32,9 +32,9 @@ root.geometry("300x100+100+100")
 frame = tk.Label(root)
 frame.pack(anchor=tk.CENTER, padx=10, pady=10)
 button_base = tk.Button(frame, text="Base", command=rotate_base)
-button_base.pack(anchor=tk.LEFT, padx=10, pady=10)
+button_base.pack(side=tk.LEFT, padx=10, pady=10)
 button_top = tk.Button(frame, text="Top", command=rotate_top)
-button_top.pack(anchor=tk.LEFT, padx=10, pady=10)
+button_top.pack(side=tk.RIGHT, padx=10, pady=10)
 
 root.mainloop()
 
