@@ -16,7 +16,7 @@ def rotate_cw():
     p.ChangeDutyCycle(0)
 
 def rotate_ccw():
-    p.ChangeDutyCycle(5)
+    p.ChangeDutyCycle(10)
     time.sleep(0.1)
     p.ChangeDutyCycle(0)
 
