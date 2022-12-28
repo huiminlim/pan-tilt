@@ -11,11 +11,11 @@ p = GPIO.PWM(servoPIN, 50) # GPIO 17 for PWM with 50Hz
 
 def rotate_cw():
     p.ChangeDutyCycle(5)
-    time.sleep(0.1)
+    time.sleep(0.5)
 
 def rotate_ccw():
-    p.ChangeDutyCycle(-5)
-    time.sleep(0.1)
+    p.ChangeDutyCycle(5)
+    time.sleep(0.5)
 
 root = tk.Tk()
 
