@@ -3,7 +3,7 @@ import tkinter as tk
 
 import RPi.GPIO as GPIO
 
-baseServoPIN = 13
+baseServoPIN = 14
 topServoPIN = 19
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
